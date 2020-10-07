@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning API</title>
+</head>
+
+<body>
+    <div class="jumbotron col-8 offset-2">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a very simple machine learning project. This project is using the iris dataset and will
+            tell you which flower aligns closest with 4 measurements.</p>
+        <hr class="my-4">
+        <p>It uses the open source GoLearn ML library for GoLang.</p>
+        <div class="form-group row">
+            <label for="height" class="col-sm-2 col-form-label">height</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control col-4" id="height" placeholder="enter a number">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="weight" class="col-sm-2 col-form-label">weight</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control col-4" id="weight" placeholder="enter a number">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="width" class="col-sm-2 col-form-label">width</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control col-4" id="width" placeholder="enter a number">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="water" class="col-sm-2 col-form-label">water</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control col-4" id="water" placeholder="enter a number">
+            </div>
+        </div>
+        <div class="form-group row" style="margin-right: auto;">
+            <label for="answer" class="col-sm-2 col-form-label">Color</label>
+            <div class="col-sm-10">
+                <img src="" id="pic">
+                <input type="text" class="form-control-plaintext col-7" id="color" placeholder="yellow">
+            </div>
+        </div>
+        <button class="btn btn-primary btn-lg" href="#" onclick="submit()">Submit</button>
+    </div>
+</body>
+
+<script>
+    function getPic(str) {
+        console.log(str)
+        switch (str) {
+            case 'Iris-setosa':
+                return '/static/setosa.jpeg'
+            case 'Iris-virginica':
+                return '/static/virginica.jpeg'
+            case 'Iris-versicolor':
+                return '/static/versicolor.jpeg'
+        }
+    }
+    function submit() {
+        const url = 'http://localhost:8080/predict';
+        let body = {
+            height: parseFloat(document.getElementById("height").value),
+            width: parseFloat(document.getElementById("width").value),
+            weight: parseFloat(document.getElementById("weight").value),
+            water: parseFloat(document.getElementById("water").value)
+        };
+        console.log(body);
+        method = "POST"
+        fetch(url, { body: JSON.stringify(body), method, mode: "no-cors" })
+            .then((res) => {
+                res.text().then(txt => {
+                    console.log(txt.split('Data:').pop().trim().split(" ")[0].trim() === 'Iris-setosa');
+                    document.getElementById("color").value = txt.split('Data:').pop().trim().split(" ")[0].trim();
+                    console.log(getPic(txt.split('Data:').pop().trim().split(" ")[0].trim()))
+                    document.getElementById("pic").src = getPic(txt.split('Data:').pop().trim().split(" ")[0].trim());
+                })
+            })
+            .catch(e => {
+                console.log(e);
+                return e;
+            });
+    }
+</script>
+
+</html>

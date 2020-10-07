@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="358b668a-af5f-4180-8965-574fac143c27" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1iTnQEmIqW1kqLSgtThrOeyIlAz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datasets" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/service" />
+      <recent name="$PROJECT_DIR$/internal/app/ml-model" />
+      <recent name="$PROJECT_DIR$/internal/app" />
+      <recent name="$PROJECT_DIR$/internal/app/server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/dylancorbus/ml-go-project/internal/app">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../ml-go-project|/Users/dylancorbus/go/src/ml-go-project/internal/app/main/test.go" />
+      <package value="github.com/dylancorbus/go-database" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TEST" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main/main.go" />
+      <package value="github.com/dylancorbus/go-database/internal/app/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/go-database/internal/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main.go" />
+      <package value="github.com/dylancorbus/go-database/internal/app" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/go-database/internal/app/main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main/testPyCall.go" />
+      <package value="github.com/dylancorbus/go-database/internal/app/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/go-database/internal/app/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main/blank.go" />
+      <package value="github.com/dylancorbus/go-database/internal/app/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/go-database/internal/app/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main/test.go" />
+      <package value="github.com/dylancorbus/go-database/internal/app/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/ml-go-project/internal/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/app/main.go" />
+      <package value="github.com/dylancorbus/ml-go-project/internal/app" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/dylancorbus/ml-go-project/internal/pkg/training" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ml-go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/pkg/training/train.go" />
+      <package value="github.com/dylancorbus/ml-go-project/internal/pkg/training" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.TEST" />
+      <item itemvalue="Go Build.go build github.com/dylancorbus/go-database/internal/app/main" />
+      <item itemvalue="Go Build.go build github.com/dylancorbus/go-database/internal/app" />
+      <item itemvalue="Go Build.go build github.com/dylancorbus/ml-go-project/internal/pkg/training" />
+      <item itemvalue="Go Build.go build github.com/dylancorbus/ml-go-project/internal/app" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/dylancorbus/ml-go-project/internal/app" />
+        <item itemvalue="Go Build.go build github.com/dylancorbus/ml-go-project/internal/pkg/training" />
+        <item itemvalue="Go Build.go build github.com/dylancorbus/go-database/internal/app" />
+        <item itemvalue="Go Build.TEST" />
+        <item itemvalue="Go Build.go build github.com/dylancorbus/go-database/internal/app/main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="358b668a-af5f-4180-8965-574fac143c27" name="Default Changelist" comment="" />
+      <created>1601940430206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601940430206</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="133" width="1071" height="867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602039031685">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="424" y="133" width="1071" height="867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1602039031685" />
+    <state x="702" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601977980333">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="702" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1601977980333" />
+    <state x="825" y="243" key="EnvironmentVariablesDialog" timestamp="1602019497727">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="825" y="243" key="EnvironmentVariablesDialog/0.23.1920.977@0.23.1920.977" timestamp="1602019497727" />
+    <state width="1878" height="263" key="GridCell.Tab.0.bottom" timestamp="1602055670279">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1602055670279" />
+    <state width="1878" height="263" key="GridCell.Tab.0.center" timestamp="1602055670279">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1602055670279" />
+    <state width="1878" height="263" key="GridCell.Tab.0.left" timestamp="1602055670278">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1602055670278" />
+    <state width="1878" height="263" key="GridCell.Tab.0.right" timestamp="1602055670279">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1602055670279" />
+    <state width="917" height="325" key="GridCell.Tab.1.bottom" timestamp="1602050318618">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="917" height="325" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1602050318618" />
+    <state width="917" height="325" key="GridCell.Tab.1.center" timestamp="1602050318617">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="917" height="325" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1602050318617" />
+    <state width="917" height="325" key="GridCell.Tab.1.left" timestamp="1602050318617">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="917" height="325" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1602050318617" />
+    <state width="917" height="325" key="GridCell.Tab.1.right" timestamp="1602050318618">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="917" height="325" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1602050318618" />
+    <state x="469" y="150" key="SettingsEditor" timestamp="1602054551273">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="469" y="150" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1602054551273" />
+    <state width="960" height="488" key="XDebugger.FullValuePopup" timestamp="1602020225135">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="960" height="488" key="XDebugger.FullValuePopup/0.23.1920.977@0.23.1920.977" timestamp="1602020225135" />
+    <state x="100" y="123" width="1720" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602019732821">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="100" y="123" width="1720" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1920.977@0.23.1920.977" timestamp="1602019732821" />
+    <state x="100" y="123" width="1720" height="776" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602034828350">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="100" y="123" width="1720" height="776" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.977@0.23.1920.977" timestamp="1602034828350" />
+    <state x="667" y="143" width="586" height="735" key="find.popup" timestamp="1602054793709">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="667" y="143" width="586" height="735" key="find.popup/0.23.1920.977@0.23.1920.977" timestamp="1602054793709" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1601974955330">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1601974955330" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/app/main.go</url>
+          <line>216</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
